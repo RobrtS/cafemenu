@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* BODY ------------------------------------------------------------------------------------*/
+body{
+    padding: 20px;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family:sans-serif; 
+}
+
+/* HEADINGS and PARAGRAPHS-----------------------------------------------------------------------*/
+h1, h2, p{
+    text-align: center;
+}
+
+h1,h2{
+    font-family:Impact,serif;
+}
+h1{
+
+    margin-bottom: 15px;
+    margin-top: 0;
+
+    font-size: 40px;
+
+}
+h2{
+    font-size:30px;
+}
+
+/* IMG --------------------------------------------------------------------------------------*/
+img{
+    display: block;
+
+    margin-top:-25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+/* CLASSES ---------------------------------------------------------------------------------------*/
+.bottom-line{
+    margin-top:25px;
+}
+.established{
+    font-style: italic;
+}
+.menu{
+    max-width: 500px;
+    padding: 20px;
+    width:80%;                      /* valor anterior era 300px */
+    background-color: burlywood;
+    margin-left: auto;              /* centralizar a div automaticamente no centro da viewport */
+    margin-right: auto;             /* centralizar a div automaticamente no centro da viewport */
+}
+.flavor , .dessert{
+    text-align:left;
+    width: 75%;
+
+}
+.price{
+    text-align: right;
+    width:25%;
+}
+.item p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* FOOTER ----------------------------------------------------------------------------------------*/
+
+footer{
+    font-size: 14px;
+}
+.address{
+    margin-bottom:5px;
+}
+
+/* LINK ( a ) ----------------------------------------------------------------------------------  */
+a{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:brown;
+}
+a:active{
+    color:brown;
+}
+    
